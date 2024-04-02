@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import Signup from './components/SignUp/Signup';
 import Service from './components/ServicePage/Service';
 import Navbar from './components/Navbar/Navbar';
+import FooterPage from './components/Footer/FooterPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path="*" element={<NotFound />} /> */}
                 <Route path="/signup" element={<Signup />} />
             </Routes>
+            <FooterPage/>
         </BrowserRouter>
     </>
   )

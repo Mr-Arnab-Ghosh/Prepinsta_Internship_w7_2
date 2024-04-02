@@ -29,12 +29,12 @@ img {
     text-align: center;
 }
 
-.hero-text h1 {
+.hero-text h1{
     font-size: 3rem;
     font-weight: 800;
-    background-color: #fff;
+    background: #fff;
     /* text-transform: uppercase; */
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

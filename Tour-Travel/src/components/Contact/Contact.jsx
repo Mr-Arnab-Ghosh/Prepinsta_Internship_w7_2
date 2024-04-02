@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../HeroSection/Hero'
-import contactImg_var from "../../assets/2.jpg"
+import contactImg_var from "../../assets/2.webp"
+import ContactForm from './ContactForm/ContactForm'
 
 function Contact() {
   return (
@@ -10,6 +11,7 @@ function Contact() {
             title="Contact"  
             btnClass="hide"
         />
+        <ContactForm/>
     </>
   )
 }

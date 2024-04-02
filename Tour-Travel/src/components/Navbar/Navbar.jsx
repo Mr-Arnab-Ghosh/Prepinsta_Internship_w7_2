@@ -15,9 +15,9 @@ class Navbar extends Component {
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">ZTravel</h1>
                 <div className="menuSection-icons" onClick={this.handleClick}>
-                    <i className={this.state.clicked? "fas-fa-times":"fas-fa-bars"}></i>   {/* Here "fas-fa-times" is for close icon and "fas-fa-bars" is for three line icon */}
+                    <i className={this.state.clicked? "fas fa-times":"fas fa-bars"}></i>   {/* Here "fas-fa-times" is for close icon and "fas-fa-bars" is for three line icon */}
                 </div>
-                <ul className={this.state.clicked? ".nav-menu active":".nav-menu"} >
+                <ul className={this.state.clicked? "nav-menu active":"nav-menu"} >
                     {MenuItems.map((menu, index) =>{
                         return (
                             <li key={index}>
