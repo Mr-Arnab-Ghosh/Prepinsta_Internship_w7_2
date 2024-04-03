@@ -8,8 +8,8 @@ Step 1: We've to install React library by using
               When we use "create-react-app" to install React it will install some files which may not be needed. So instead of using the above method we will use "vite" tool:
                       "npm create vite@latest"  - is used when we want to use "Vite" as our build tool.
                                           
-                                          then, it will ask "Project name:" - we need to give a folder_name
-                                                "Select a framework:" - we've to use keyboard arrow key to select our preferred 
+                                          then, it will ask "Project name:" - we need to give a folder_name   or   we can type "./" to keep all the files within current directory.
+                                                "Select a framework:" - we've to use keyboard arrow key to select our preferred. 
                                                 "Select a variant:" - select our preferred variant like TypeScript or JavaScript or TypeScript + SWC or JavaScript + SWC
                                                                         Here, "SWC" - Speedy Web Compiler
                                                                               but already "vite" tool is fast enough so we can simply select normal variant of JavaScript or TypeScript
